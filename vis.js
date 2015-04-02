@@ -61,7 +61,7 @@ javascriptNode.onaudioprocess = function() {
   var array =  new Uint8Array(analyser.frequencyBinCount);
   analyser.getByteFrequencyData(array);
   ctx.clearRect(0, 0, 1000, 325);
-  ctx.fillStyle="#f61a03"; //bar color
+  ctx.fillStyle="#8F10D8"; //bar color
   drawSpectrum(array);
 }
 
