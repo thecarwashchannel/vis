@@ -14,7 +14,7 @@ $(".content").hide();
 var ctx = $("#canvas").get()[0].getContext("2d");
 
 setupAudioNodes();
-loadSound("ambush.mp3"); //music file
+loadSound("asdmovie.mp3"); //music file
 
 
 function setupAudioNodes() {
